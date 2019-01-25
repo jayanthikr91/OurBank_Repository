@@ -8,6 +8,7 @@
   <name>OurBank Maven Webapp</name>
   <url>http://maven.apache.org</url>
  <properties>
+	<sonar.test.inclusions>src/test/java/actionClass</sonar.test.inclusions>
 	<sonar.junit.reportPaths>target/surefire-reports</sonar.junit.reportPaths>
 	<sonar.surefire.reportPaths>target/surefire-reports</sonar.surefire.reportPaths>
 	<sonar.jacoco.reportPaths>target/jacoco.exec</sonar.jacoco.reportPaths>
