@@ -9,7 +9,7 @@
 			com.mysql.jdbc.Driver
 		</property>
 		<property name="connection.url">
-			jdbc:mysql://localhost:3306/ourbank
+			jdbc:mysql://ec2-54-234-245-21.compute-1.amazonaws.com:3306/ourbank
 		</property>
 		<property name="connection.username">root</property>
 		<property name="connection.password">welcome123</property>
