@@ -8,9 +8,12 @@
   <name>OurBank Maven Webapp</name>
   <url>http://maven.apache.org</url>
  <properties>
+	<sonar.junit.reportPaths>target/surefire-reports</sonar.junit.reportPaths>
+	<sonar.surefire.reportPaths>target/surefire-reports</sonar.surefire.reportPaths>
+	<sonar.jacoco.reportPaths>target/jacoco.exec</sonar.jacoco.reportPaths>
+	<sonar.binaries>target/classes</sonar.binaries>
 	<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 	<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-	<sonar.jacoco.reportPaths>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPaths>
   </properties>
  <dependencies>
 		<!-- Servlet -->
